@@ -29,13 +29,7 @@
 	25% {
 		transform: scale(0.4);
         background-color: rgb(145, 158, 28);
-        border-radius: 30%;
-	}
-
-    50% {
-		transform: scale(0.6);
-        background-color: rgb(246, 242, 6);
-        border-radius: 20%;
+        border-radius: 80%;
 	}
 
     75% {
