@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    box-shadow: 2px 2px 2px 1px #f2f2f2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carre{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    animation: myAnim 2s cubic-bezier(0.25, 0.1, 0.57, 0.49) 0s infinite alternate-reverse none;
+    margin: 2px auto;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale(0.2);
+        background-color: rgb(26, 226, 82);
+        border-radius: 50%;
+	}
+
+	25% {
+		transform: scale(0.4);
+        background-color: rgb(145, 158, 28);
+        border-radius: 30%;
+	}
+
+    50% {
+		transform: scale(0.6);
+        background-color: rgb(246, 242, 6);
+        border-radius: 20%;
+	}
+
+    75% {
+		transform: scale(0.8);
+        background-color: rgb(255, 98, 0);
+        border-radius: 10%;
+	}
+
+    100% {
+		transform: scale(1);
+	}
+}
